@@ -18,6 +18,7 @@ class CameraThread(QThread):
             if not ok:
                 self.msleep(100)
                 continue
+            frame = cv2.flip(frame, 1)
             rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
             h, w, ch = rgb.shape
             image = QImage(rgb.data, w, h, ch * w, QImage.Format_RGB888).copy()

@@ -15,8 +15,8 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QFont, QFontDatabase, QGradient, QIcon,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide6.QtWidgets import (QApplication, QLabel, QSizePolicy, QVBoxLayout,
-    QWidget)
+from PySide6.QtWidgets import (QApplication, QLabel, QListWidget, QListWidgetItem,
+    QSizePolicy, QVBoxLayout, QWidget)
 
 class Ui_Form(object):
     def setupUi(self, Form):
@@ -35,6 +35,36 @@ class Ui_Form(object):
 
         self.verticalLayout.addWidget(self.statusLabel)
 
+        self.frontSensor = QLabel(Form)
+        self.frontSensor.setObjectName(u"frontSensor")
+
+        self.verticalLayout.addWidget(self.frontSensor)
+
+        self.rightSensor = QLabel(Form)
+        self.rightSensor.setObjectName(u"rightSensor")
+
+        self.verticalLayout.addWidget(self.rightSensor)
+
+        self.leftSensor = QLabel(Form)
+        self.leftSensor.setObjectName(u"leftSensor")
+
+        self.verticalLayout.addWidget(self.leftSensor)
+
+        self.headingDirection = QLabel(Form)
+        self.headingDirection.setObjectName(u"headingDirection")
+
+        self.verticalLayout.addWidget(self.headingDirection)
+
+        self.batteryLevel = QLabel(Form)
+        self.batteryLevel.setObjectName(u"batteryLevel")
+
+        self.verticalLayout.addWidget(self.batteryLevel)
+
+        self.listWidget = QListWidget(Form)
+        self.listWidget.setObjectName(u"listWidget")
+
+        self.verticalLayout.addWidget(self.listWidget)
+
 
         self.retranslateUi(Form)
 
@@ -45,5 +75,10 @@ class Ui_Form(object):
         Form.setWindowTitle(QCoreApplication.translate("Form", u"Form", None))
         self.videoLabel.setText(QCoreApplication.translate("Form", u"Waiting for camera...", None))
         self.statusLabel.setText(QCoreApplication.translate("Form", u"Status: not connected", None))
+        self.frontSensor.setText(QCoreApplication.translate("Form", u"Front: ", None))
+        self.rightSensor.setText(QCoreApplication.translate("Form", u"Right: ", None))
+        self.leftSensor.setText(QCoreApplication.translate("Form", u"Left: ", None))
+        self.headingDirection.setText(QCoreApplication.translate("Form", u"Direction:", None))
+        self.batteryLevel.setText(QCoreApplication.translate("Form", u"Battery:", None))
     # retranslateUi
 

@@ -28,6 +28,44 @@
      </property>
     </widget>
    </item>
+   <item>
+    <widget class="QLabel" name="frontSensor">
+     <property name="text">
+      <string>Front: </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="rightSensor">
+     <property name="text">
+      <string>Right: </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="leftSensor">
+     <property name="text">
+      <string>Left: </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="headingDirection">
+     <property name="text">
+      <string>Direction:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="batteryLevel">
+     <property name="text">
+      <string>Battery:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="listWidget"/>
+   </item>
   </layout>
  </widget>
  <resources/>
