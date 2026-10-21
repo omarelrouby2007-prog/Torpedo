@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>665</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="videoLabel">
+     <property name="text">
+      <string>Waiting for camera...</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="statusLabel">
+     <property name="text">
+      <string>Status: not connected</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="frontSensor">
+     <property name="text">
+      <string>Front: </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="rightSensor">
+     <property name="text">
+      <string>Right: </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="leftSensor">
+     <property name="text">
+      <string>Left: </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="headingDirection">
+     <property name="text">
+      <string>Direction:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="batteryLevel">
+     <property name="text">
+      <string>Battery:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="listWidget"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
