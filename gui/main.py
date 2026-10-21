@@ -6,7 +6,7 @@ from PySide6.QtGui import QPixmap
 from camera_thread import CameraThread
 from sensor_thread import SensorThread
 
-SOURCE = 0
+SOURCE = "http://192.168.1.5:6677/videofeed"
 
 class MainWindow(QWidget):
     def __init__(self):
@@ -15,18 +15,18 @@ class MainWindow(QWidget):
         self.ui.setupUi(self)
         self.ui.verticalLayout.setStretch(0, 5)
         self.ui.verticalLayout.setStretch(7, 1)
-        self.ui.statusLabel.setText("Status: connected")
         #threads:
         #camera
         self.camera = CameraThread(SOURCE)
         self.camera.frame_ready.connect(self.show_frame)
+        self.camera.status_changed.connect(self.ui.statusLabel.setText)
         self.camera.start()
         #sensors
         self.sensors = SensorThread()
         #distances
         self.sensors.sensors_ready.connect(self.show_sensors)
         #cubes
-        self.sensors.cubes_ready.connect(self.show_cubes)
+        self.camera.cubes_ready.connect(self.show_cubes)   # camera -> GUI
         self.sensors.start()
     #displays:
     #camera
@@ -43,10 +43,10 @@ class MainWindow(QWidget):
     def show_cubes(self, cubes):
         self.ui.listWidget.clear()
         for cube in cubes:
-            self.ui.listWidget.addItem(f"{cube['color']} (area {cube['area']})")
-
+            self.ui.listWidget.addItem(f"{cube['color']} (area {cube['area']}) at ({cube['cx']}, {cube['cy']})")
     def closeEvent(self, event):
         self.camera.stop()
+        self.sensors.stop()
         event.accept()
         
 app = QApplication(sys.argv)

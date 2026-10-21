@@ -9,7 +9,6 @@ BATTERY_LEVEL """
 
 class SensorThread(QThread):
     sensors_ready = Signal(dict)
-    cubes_ready = Signal(list)
 
     def __init__(self):
         super().__init__()
@@ -25,13 +24,6 @@ class SensorThread(QThread):
                 "battery": round(random.uniform(7.2, 8.4), 2),
             }
             self.sensors_ready.emit(data)
-
-            colors = ["red", "green", "blue", "yellow"]
-            cubes = []
-            for i in range(random.randint(0, 3)):
-                cubes.append({"color": random.choice(colors), "area": random.randint(500, 3000)})
-            self.cubes_ready.emit(cubes)
-
             self.msleep(200)
 
     def stop(self):
