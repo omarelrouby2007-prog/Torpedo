@@ -1,0 +1,22 @@
+[0.019s] Invoking command in '/home/omar-elrouby/ros2_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-elrouby/ros2_ws/build/my_robot_pkg -- -j4 -l4
+[0.058s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.324s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.343s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.354s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.366s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.384s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.464s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.464s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.562s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.694s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.739s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.866s] -- Configuring incomplete, errors occurred!
+[0.867s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.867s]   ament_target_dependencies() the passed package name 'geometry_msgs' was not
+[0.867s]   found before
+[0.867s] Call Stack (most recent call first):
+[0.867s]   CMakeLists.txt:25 (ament_target_dependencies)
+[0.867s] 
+[0.868s] [0m
+[0.880s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.893s] Invoked command in '/home/omar-elrouby/ros2_ws/build/my_robot_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-elrouby/ros2_ws/build/my_robot_pkg -- -j4 -l4
