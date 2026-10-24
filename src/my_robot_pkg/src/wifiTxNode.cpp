@@ -30,9 +30,6 @@ class wifiTxNode:public rclcpp::Node{
         }
 
 
-      
-
-
 
 
     }
