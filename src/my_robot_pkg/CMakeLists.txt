@@ -21,5 +21,32 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+add_executable(input_node src/input_node1.c++)
+ament_target_dependencies(input_node rclcpp geometry_msgs)
+
+# 2. Node 2 (Kinematics)
+add_executable(kinematics_node src/kimatics_Node.cpp)
+ament_target_dependencies(kinematics_node rclcpp geometry_msgs std_msgs)
+
+# 3. Node 3 (WiFi TX)
+add_executable(wifi_tx_node src/wifiTxNode.cpp)
+ament_target_dependencies(wifi_tx_node rclcpp std_msgs)
+
+# 4. Node 4 (WiFi RX)
+add_executable(wifi_rx_node src/wifiRxNode.cpp)
+ament_target_dependencies(wifi_rx_node rclcpp std_msgs)
+
+install(TARGETS
+  input_node
+  kinematics_node
+  wifi_tx_node
+  wifi_rx_node
+  DESTINATION lib/${PROJECT_NAME})
+
+
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}
+)
 
 ament_package()

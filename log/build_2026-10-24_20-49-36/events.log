@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.000255] (my_robot_pkg) JobQueued: {'identifier': 'my_robot_pkg', 'dependencies': OrderedDict()}
+[0.000382] (my_robot_pkg) JobStarted: {'identifier': 'my_robot_pkg'}
+[0.067498] (my_robot_pkg) JobProgress: {'identifier': 'my_robot_pkg', 'progress': 'cmake'}
+[0.067760] (my_robot_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/omar-elrouby/ros2_ws/src/my_robot_pkg', '-DCMAKE_INSTALL_PREFIX=/home/omar-elrouby/ros2_ws/install/my_robot_pkg'], 'cwd': '/home/omar-elrouby/ros2_ws/build/my_robot_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'EGL_PLATFORM': 'wayland', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'omar-elrouby', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/omar-elrouby', 'CHROME_DESKTOP': 'com.microsoft.VSCode.desktop', 'OLDPWD': '/home/omar-elrouby/ros2_ws/src/my_robot_pkg', 'TERM_PROGRAM_VERSION': '1.140.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/com.microsoft.VSCode.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2008', 'SYSTEMD_EXEC_PID': '2258', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3072', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'omar-elrouby', 'JOURNAL_STREAM': '10:13300', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'omar-elrouby', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/omar-elrouby-VirtualBox:@/tmp/.ICE-unix/2223,unix/omar-elrouby-VirtualBox:/tmp/.ICE-unix/2223', 'INVOCATION_ID': 'a2510d6a594849299578f32f39536ee0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CEXEX3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-43ec71bc7f.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/omar-elrouby/ros2_ws/build/my_robot_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.100054] (-) TimerEvent: {}
+[0.203217] (-) TimerEvent: {}
+[0.306395] (-) TimerEvent: {}
+[0.407993] (-) TimerEvent: {}
+[0.476972] (my_robot_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.509799] (-) TimerEvent: {}
+[0.621757] (-) TimerEvent: {}
+[0.724908] (-) TimerEvent: {}
+[0.828208] (-) TimerEvent: {}
+[0.932077] (-) TimerEvent: {}
+[1.035372] (-) TimerEvent: {}
+[1.109673] (my_robot_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.135747] (-) TimerEvent: {}
+[1.243207] (-) TimerEvent: {}
+[1.344866] (-) TimerEvent: {}
+[1.354382] (my_robot_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.452427] (-) TimerEvent: {}
+[1.569184] (-) TimerEvent: {}
+[1.670538] (-) TimerEvent: {}
+[1.771304] (-) TimerEvent: {}
+[1.825838] (my_robot_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.854336] (my_robot_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.857051] (my_robot_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.860847] (my_robot_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.871716] (-) TimerEvent: {}
+[1.923519] (my_robot_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.972354] (-) TimerEvent: {}
+[2.082437] (-) TimerEvent: {}
+[2.183235] (-) TimerEvent: {}
+[2.256986] (my_robot_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.280291] (my_robot_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.281443] (my_robot_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.283185] (my_robot_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.283405] (-) TimerEvent: {}
+[2.333076] (my_robot_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.392767] (-) TimerEvent: {}
+[2.493624] (-) TimerEvent: {}
+[2.594370] (-) TimerEvent: {}
+[2.724182] (-) TimerEvent: {}
+[2.831332] (-) TimerEvent: {}
+[2.848443] (my_robot_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.933824] (-) TimerEvent: {}
+[3.046744] (-) TimerEvent: {}
+[3.147848] (-) TimerEvent: {}
+[3.249281] (-) TimerEvent: {}
+[3.351466] (-) TimerEvent: {}
+[3.454328] (-) TimerEvent: {}
+[3.565246] (-) TimerEvent: {}
+[3.639419] (my_robot_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[3.665973] (-) TimerEvent: {}
+[3.768456] (-) TimerEvent: {}
+[3.872706] (-) TimerEvent: {}
+[3.928597] (my_robot_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[3.975678] (-) TimerEvent: {}
+[4.009266] (my_robot_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[4.078224] (-) TimerEvent: {}
+[4.138452] (my_robot_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.194259] (-) TimerEvent: {}
+[4.275403] (my_robot_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.347424] (-) TimerEvent: {}
+[4.457759] (-) TimerEvent: {}
+[4.612203] (-) TimerEvent: {}
+[4.714267] (-) TimerEvent: {}
+[4.817295] (-) TimerEvent: {}
+[4.914322] (my_robot_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[4.917886] (-) TimerEvent: {}
+[4.944037] (my_robot_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.018248] (-) TimerEvent: {}
+[5.120798] (-) TimerEvent: {}
+[5.221939] (-) TimerEvent: {}
+[5.326988] (-) TimerEvent: {}
+[5.427760] (-) TimerEvent: {}
+[5.528312] (-) TimerEvent: {}
+[5.630194] (-) TimerEvent: {}
+[5.729889] (my_robot_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[5.730289] (-) TimerEvent: {}
+[5.833910] (-) TimerEvent: {}
+[5.933058] (my_robot_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[5.942633] (-) TimerEvent: {}
+[6.043222] (-) TimerEvent: {}
+[6.138411] (my_robot_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.143715] (-) TimerEvent: {}
+[6.252039] (-) TimerEvent: {}
+[6.369710] (-) TimerEvent: {}
+[6.472759] (-) TimerEvent: {}
+[6.583776] (-) TimerEvent: {}
+[6.698326] (-) TimerEvent: {}
+[6.768161] (my_robot_pkg) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[6.849731] (-) TimerEvent: {}
+[6.895810] (my_robot_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[6.981935] (-) TimerEvent: {}
+[7.085559] (-) TimerEvent: {}
+[7.186802] (-) TimerEvent: {}
+[7.277768] (my_robot_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.278174] (my_robot_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[7.279008] (my_robot_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.282177] (my_robot_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.282612] (my_robot_pkg) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[7.286021] (my_robot_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.288125] (-) TimerEvent: {}
+[7.289905] (my_robot_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.294178] (my_robot_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.294914] (my_robot_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.303729] (my_robot_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.313960] (my_robot_pkg) StdoutLine: {'line': b'-- Configuring done (7.2s)\n'}
+[7.346961] (my_robot_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[7.357397] (my_robot_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/omar-elrouby/ros2_ws/build/my_robot_pkg\n'}
+[7.390030] (my_robot_pkg) CommandEnded: {'returncode': 0}
+[7.391464] (-) TimerEvent: {}
+[7.391952] (my_robot_pkg) JobProgress: {'identifier': 'my_robot_pkg', 'progress': 'build'}
+[7.392023] (my_robot_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omar-elrouby/ros2_ws/build/my_robot_pkg', '--', '-j4', '-l4'], 'cwd': '/home/omar-elrouby/ros2_ws/build/my_robot_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'EGL_PLATFORM': 'wayland', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'omar-elrouby', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/omar-elrouby', 'CHROME_DESKTOP': 'com.microsoft.VSCode.desktop', 'OLDPWD': '/home/omar-elrouby/ros2_ws/src/my_robot_pkg', 'TERM_PROGRAM_VERSION': '1.140.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/com.microsoft.VSCode.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2008', 'SYSTEMD_EXEC_PID': '2258', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3072', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'omar-elrouby', 'JOURNAL_STREAM': '10:13300', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'omar-elrouby', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/omar-elrouby-VirtualBox:@/tmp/.ICE-unix/2223,unix/omar-elrouby-VirtualBox:/tmp/.ICE-unix/2223', 'INVOCATION_ID': 'a2510d6a594849299578f32f39536ee0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CEXEX3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-43ec71bc7f.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/omar-elrouby/ros2_ws/build/my_robot_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.492533] (-) TimerEvent: {}
+[7.610011] (-) TimerEvent: {}
+[7.618884] (my_robot_pkg) CommandEnded: {'returncode': 0}
+[7.625343] (my_robot_pkg) JobProgress: {'identifier': 'my_robot_pkg', 'progress': 'install'}
+[7.683234] (my_robot_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/omar-elrouby/ros2_ws/build/my_robot_pkg'], 'cwd': '/home/omar-elrouby/ros2_ws/build/my_robot_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'EGL_PLATFORM': 'wayland', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'omar-elrouby', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/omar-elrouby', 'CHROME_DESKTOP': 'com.microsoft.VSCode.desktop', 'OLDPWD': '/home/omar-elrouby/ros2_ws/src/my_robot_pkg', 'TERM_PROGRAM_VERSION': '1.140.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/com.microsoft.VSCode.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2008', 'SYSTEMD_EXEC_PID': '2258', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3072', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'omar-elrouby', 'JOURNAL_STREAM': '10:13300', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'omar-elrouby', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/omar-elrouby-VirtualBox:@/tmp/.ICE-unix/2223,unix/omar-elrouby-VirtualBox:/tmp/.ICE-unix/2223', 'INVOCATION_ID': 'a2510d6a594849299578f32f39536ee0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CEXEX3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-43ec71bc7f.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/omar-elrouby/ros2_ws/build/my_robot_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.715467] (-) TimerEvent: {}
+[7.725329] (my_robot_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.729658] (my_robot_pkg) StdoutLine: {'line': b'-- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/ament_index/resource_index/package_run_dependencies/my_robot_pkg\n'}
+[7.732231] (my_robot_pkg) StdoutLine: {'line': b'-- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/ament_index/resource_index/parent_prefix_path/my_robot_pkg\n'}
+[7.734948] (my_robot_pkg) StdoutLine: {'line': b'-- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/environment/ament_prefix_path.sh\n'}
+[7.735824] (my_robot_pkg) StdoutLine: {'line': b'-- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/environment/ament_prefix_path.dsv\n'}
+[7.739251] (my_robot_pkg) StdoutLine: {'line': b'-- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/environment/path.sh\n'}
+[7.739585] (my_robot_pkg) StdoutLine: {'line': b'-- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/environment/path.dsv\n'}
+[7.740757] (my_robot_pkg) StdoutLine: {'line': b'-- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.bash\n'}
+[7.742900] (my_robot_pkg) StdoutLine: {'line': b'-- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.sh\n'}
+[7.743192] (my_robot_pkg) StdoutLine: {'line': b'-- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.zsh\n'}
+[7.744047] (my_robot_pkg) StdoutLine: {'line': b'-- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.dsv\n'}
+[7.744313] (my_robot_pkg) StdoutLine: {'line': b'-- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/package.dsv\n'}
+[7.744975] (my_robot_pkg) StdoutLine: {'line': b'-- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/ament_index/resource_index/packages/my_robot_pkg\n'}
+[7.745197] (my_robot_pkg) StdoutLine: {'line': b'-- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/cmake/my_robot_pkgConfig.cmake\n'}
+[7.746316] (my_robot_pkg) StdoutLine: {'line': b'-- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/cmake/my_robot_pkgConfig-version.cmake\n'}
+[7.747152] (my_robot_pkg) StdoutLine: {'line': b'-- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/package.xml\n'}
+[7.759739] (my_robot_pkg) CommandEnded: {'returncode': 0}
+[7.818289] (-) TimerEvent: {}
+[7.922256] (-) TimerEvent: {}
+[7.961799] (my_robot_pkg) JobEnded: {'identifier': 'my_robot_pkg', 'rc': 0}
+[7.965180] (-) EventReactorShutdown: {}

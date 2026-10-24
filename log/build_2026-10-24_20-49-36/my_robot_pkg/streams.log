@@ -1,0 +1,61 @@
+[0.069s] Invoking command in '/home/omar-elrouby/ros2_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/omar-elrouby/ros2_ws/src/my_robot_pkg -DCMAKE_INSTALL_PREFIX=/home/omar-elrouby/ros2_ws/install/my_robot_pkg
+[0.477s] -- The C compiler identification is GNU 13.3.0
+[1.110s] -- The CXX compiler identification is GNU 13.3.0
+[1.355s] -- Detecting C compiler ABI info
+[1.826s] -- Detecting C compiler ABI info - done
+[1.854s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.857s] -- Detecting C compile features
+[1.861s] -- Detecting C compile features - done
+[1.923s] -- Detecting CXX compiler ABI info
+[2.257s] -- Detecting CXX compiler ABI info - done
+[2.280s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.281s] -- Detecting CXX compile features
+[2.283s] -- Detecting CXX compile features - done
+[2.341s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.848s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.641s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.933s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.009s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.138s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.276s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.915s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.944s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.730s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.933s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.139s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.768s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[6.896s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.278s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.279s] -- Configured cppcheck include dirs: 
+[7.279s] -- Configured cppcheck exclude dirs and/or files: 
+[7.282s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.282s] -- Configured 'flake8' exclude dirs and/or files: 
+[7.286s] -- Added test 'lint_cmake' to check CMake code style
+[7.290s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.294s] -- Added test 'uncrustify' to check C / C++ code style
+[7.295s] -- Configured uncrustify additional arguments: 
+[7.304s] -- Added test 'xmllint' to check XML markup files
+[7.314s] -- Configuring done (7.2s)
+[7.348s] -- Generating done (0.0s)
+[7.358s] -- Build files have been written to: /home/omar-elrouby/ros2_ws/build/my_robot_pkg
+[7.390s] Invoked command in '/home/omar-elrouby/ros2_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/omar-elrouby/ros2_ws/src/my_robot_pkg -DCMAKE_INSTALL_PREFIX=/home/omar-elrouby/ros2_ws/install/my_robot_pkg
+[7.393s] Invoking command in '/home/omar-elrouby/ros2_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-elrouby/ros2_ws/build/my_robot_pkg -- -j4 -l4
+[7.622s] Invoked command in '/home/omar-elrouby/ros2_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-elrouby/ros2_ws/build/my_robot_pkg -- -j4 -l4
+[7.683s] Invoking command in '/home/omar-elrouby/ros2_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omar-elrouby/ros2_ws/build/my_robot_pkg
+[7.725s] -- Install configuration: ""
+[7.731s] -- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/ament_index/resource_index/package_run_dependencies/my_robot_pkg
+[7.734s] -- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/ament_index/resource_index/parent_prefix_path/my_robot_pkg
+[7.735s] -- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/environment/ament_prefix_path.sh
+[7.736s] -- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/environment/ament_prefix_path.dsv
+[7.739s] -- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/environment/path.sh
+[7.740s] -- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/environment/path.dsv
+[7.742s] -- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.bash
+[7.743s] -- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.sh
+[7.743s] -- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.zsh
+[7.744s] -- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.dsv
+[7.745s] -- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/package.dsv
+[7.745s] -- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/ament_index/resource_index/packages/my_robot_pkg
+[7.746s] -- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/cmake/my_robot_pkgConfig.cmake
+[7.746s] -- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/cmake/my_robot_pkgConfig-version.cmake
+[7.759s] -- Installing: /home/omar-elrouby/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/package.xml
+[7.761s] Invoked command in '/home/omar-elrouby/ros2_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omar-elrouby/ros2_ws/build/my_robot_pkg
